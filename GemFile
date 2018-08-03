@@ -1,0 +1,8 @@
+source "http://rubygems.org"
+
+gem "calabash-android"
+gem "bundler"
+gem "cucumber"
+gem "faker"
+gem "cpf_faker"
+gem "pry"

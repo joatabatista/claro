@@ -1,0 +1,18 @@
+query"*"
+c
+reinstall_apps
+calabash-android console ClaroVideo.apk
+query"*"
+reinstall_apps
+start_test_server_in_background
+query"*"
+touch("* class:'android.widget.ImageButton'")
+calabash-android run ClaroVideo.apk
+calabash-android console ClaroVideo.apk
+exit
+query"*"
+query"*"
+calabash-android console ClaroVideo.apk
+exit
+reinstall_apps
+exit
